@@ -8,6 +8,10 @@ historial={2350, 5960, 23000, 1000, 8900}
 #por atención de “Puppy”. Si el gasto efectuado es menor 
 #a 30000, mostrar en pantalla dicho resultado, caso
 #contrario mostrar el mensaje “Gastos por encima de lo presupuestado”.
+
+promedio = sum(historial)/float(len(historial))
+print("El monto total es de:",promedio)
+
 for i in historial:
         if i>3000:
             print("Gastos por encima de lo presupuestado")

@@ -8,9 +8,16 @@ historial = {23500, 5960, 2300, 10200, 8900}
 #por atención de “Frida”. Crear una función que cuente
 #cuantos gastos fueron superiores a 5000 mostrando  el
 #número calculado en pantalla.
+# 
+# 
+def monto_total():
+    promedio = sum(historial)/float(len(historial))
+    print("el monto total es de:",promedio)
+monto_total()
 
 def contar(historial):
     for i in historial:
         if i >5000:
-            print(i)
+            print("y las cifras que superan el monto de 5000 son:",i)
 contar(historial)
+
