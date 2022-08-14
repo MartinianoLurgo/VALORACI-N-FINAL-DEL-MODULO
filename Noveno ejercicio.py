@@ -11,5 +11,4 @@ historial5 = {8520, 9510, 7530, 3570, 1590}
 
 def maximo():
     print("El maximo es de:", max(historial5))
-
 maximo()
